@@ -1,33 +1,92 @@
-.App {
-  text-align: center;
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-  pointer-events: none;
+.field {
+  margin-bottom: 5px;
+  padding: 8px;
+  display: inline-block;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.field label {
+  display: block;
+}
+
+.field input {
+  padding: 4px;
+}
+
+.download {
+  margin: 8px;
+}
+
+.result-container {
+  padding: 16px;
+  margin-bottom: 16px;
+}
+
+.result {
+  width: 450px;
+  height: 340px;
+  background: red;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.result .img {
+  position: relative;
+  flex: 1;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.result .img img {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.result .text {
+  background: #f2f3f5;
+  padding: 10px 12px;
+  font-size: 16px;
+  font-family: Helvetica;
+  border: 1px solid #dadada;
+  position: relative;
+}
+
+.result .text .close {
+  position: absolute;
+  background: url(close.png);
+  width: 12px;
+  height: 12px;
+  background-position: 0 -144px;
+  right: 8px;
+}
+
+.result .text .source {
+  font-size: 12px;
+  height: 11px;
+  color: #606770;
+  padding: 0;
+  text-transform: uppercase;
+}
+
+.result .text .headline {
+  font-weight: 600;
+  color: #4b4f56;
+  line-height: 20px;
+  margin-top: 5px;
+}
+
+.result .text .byline {
+  font-size: 14px;
+  word-break: break-word;
+  white-space: nowrap;
+  overflow-x: hidden;
+  text-overflow: ellipsis;
+  color: #606770;
+  margin-top: 3px;
+  padding-right: 8px;
 }
