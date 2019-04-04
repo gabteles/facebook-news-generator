@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/facebook-news-generator/precache-manifest.5cf43da96036925ed1004686b4aae7f6.js"
+  "/facebook-news-generator/precache-manifest.099122dcc609dc64034f439ef92a8f1d.js"
 );
 
 workbox.clientsClaim();

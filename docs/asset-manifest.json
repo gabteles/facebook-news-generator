@@ -1,5 +1,5 @@
 {
-  "main.css": "/facebook-news-generator/static/css/main.088278f4.chunk.css",
+  "main.css": "/facebook-news-generator/static/css/main.67ffd2ac.chunk.css",
   "main.js": "/facebook-news-generator/static/js/main.328dca6e.chunk.js",
   "main.js.map": "/facebook-news-generator/static/js/main.328dca6e.chunk.js.map",
   "runtime~main.js": "/facebook-news-generator/static/js/runtime~main.b19b11a1.js",
@@ -7,7 +7,7 @@
   "static/js/2.b3e8c75d.chunk.js": "/facebook-news-generator/static/js/2.b3e8c75d.chunk.js",
   "static/js/2.b3e8c75d.chunk.js.map": "/facebook-news-generator/static/js/2.b3e8c75d.chunk.js.map",
   "index.html": "/facebook-news-generator/index.html",
-  "precache-manifest.5cf43da96036925ed1004686b4aae7f6.js": "/facebook-news-generator/precache-manifest.5cf43da96036925ed1004686b4aae7f6.js",
+  "precache-manifest.099122dcc609dc64034f439ef92a8f1d.js": "/facebook-news-generator/precache-manifest.099122dcc609dc64034f439ef92a8f1d.js",
   "service-worker.js": "/facebook-news-generator/service-worker.js",
-  "static/css/main.088278f4.chunk.css.map": "/facebook-news-generator/static/css/main.088278f4.chunk.css.map"
+  "static/css/main.67ffd2ac.chunk.css.map": "/facebook-news-generator/static/css/main.67ffd2ac.chunk.css.map"
 }
